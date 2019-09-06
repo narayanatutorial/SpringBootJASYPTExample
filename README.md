@@ -4,7 +4,7 @@ Spring Boot Jasypt Example for encrypt sensitive data and decrypt before use it
 jasypt decrypt the encrypted value before use it in the program like database passwords.
 
 # Generate Encrypt value
-First up  download Jasypt jar and then encrypt the plain test by using security key and algorithm as follows.
+First up all download **Jasypt** jar and then encrypt the plain test by using security key and algorithm as follows.
 
 ## Step 1 :
 Download jasypt jar from maven https://mvnrepository.com/artifact/org.jasypt/jasypt/1.9.3
