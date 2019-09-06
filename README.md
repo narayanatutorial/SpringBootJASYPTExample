@@ -1,5 +1,7 @@
 # SpringBootJASYPTExample
-Spring Boot Jasypt Example for encrypt sensitive data and decrypt before use it by using Jasypt spring boot intergration
+Spring Boot Jasypt Example for encrypt sensitive data and decrypt before use it
+
+jasypt decrypt the encrypted value before use it in the program like database passwords.
 
 # Generate Encrypt value
 First up  download Jasypt jar and then encrypt the plain test by using security key and algorithm as follows.
@@ -32,6 +34,18 @@ password: supersecretKey
 
 HJQnd0Ybtt8jnRmWzbAy7maX6hx/qmzQ
 ~~~
+
+## Step 3:
+_HJQnd0Ybtt8jnRmWzbAy7maX6hx/qmzQ_    this is the encrypted text and put into application.properties like as follows.
+
+**application.properties**
+~~~
+jasypt.encryptor.algorithm=PBEWithMD5AndDES
+jasypt.encryptor.password=secretkey
+variable.secret-var=ENC(aMuWxS4Wdvhfj9vmfrHKoPyEncdujU+xx7DO87xR90E=)
+~~~
+in the property file, we need to put **algorithm** and **secretkey** used for encryption.
+
 
 
 # Reference
