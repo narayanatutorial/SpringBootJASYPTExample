@@ -46,7 +46,18 @@ variable.secret-var=ENC(aMuWxS4Wdvhfj9vmfrHKoPyEncdujU+xx7DO87xR90E=)
 ~~~
 in the property file, we need to put **algorithm** and **secretkey** used for encryption.
 
+## Step 4:
 
+add the following maven dependency in pom.xml
+
+~~~
+<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+<dependency>
+    <groupId>org.jasypt</groupId>
+    <artifactId>jasypt</artifactId>
+    <version>1.9.3</version>
+</dependency>
+~~~
 
 # Reference
 https://github.com/ulisesbocchio/jasypt-spring-boot
