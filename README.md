@@ -67,3 +67,4 @@ add the following maven dependency in pom.xml
 
 * https://github.com/ulisesbocchio/jasypt-spring-boot
 * https://www.ricston.com/blog/encrypting-properties-in-spring-boot-with-jasypt-spring-boot/
+* https://www.ru-rocker.com/2017/01/13/spring-boot-encrypting-sensitive-variable-properties-file/
