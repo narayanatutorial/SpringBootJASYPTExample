@@ -63,5 +63,7 @@ add the following maven dependency in pom.xml
 		</dependency>
 ~~~
 
-# Reference
-https://github.com/ulisesbocchio/jasypt-spring-boot
+# References
+
+* https://github.com/ulisesbocchio/jasypt-spring-boot
+* https://www.ricston.com/blog/encrypting-properties-in-spring-boot-with-jasypt-spring-boot/
