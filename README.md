@@ -51,12 +51,16 @@ in the property file, we need to put **algorithm** and **secretkey** used for en
 add the following maven dependency in pom.xml
 
 ~~~
-<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
-<dependency>
-    <groupId>org.jasypt</groupId>
-    <artifactId>jasypt</artifactId>
-    <version>1.9.3</version>
-</dependency>
+    <dependency>
+			<groupId>org.jasypt</groupId>
+			<artifactId>jasypt</artifactId>
+			<version>1.9.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.ulisesbocchio</groupId>
+			<artifactId>jasypt-spring-boot-starter</artifactId>
+			<version>2.0.0</version>
+		</dependency>
 ~~~
 
 # Reference
